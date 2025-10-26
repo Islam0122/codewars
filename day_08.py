@@ -58,3 +58,27 @@ Sum of array singles --> 7kyu
 #     return sum(unique)
 #
 # print(repeats([4,5,7,5,4,8]))
+
+
+""" 
+altERnaTIng cAsE <=> ALTerNAtiNG CaSe -->  8kyu
+ """
+# def to_alternating_case(string: str) -> str:
+#     res = list(map(lambda x: x.upper() if x.islower() else x.lower(), string))
+#     return "".join(res)
+
+
+"""
+Write Number in Expanded Form --> 6kyu
+12 --> "10 + 2"
+
+"""
+# def expanded_form(num: int) -> str:
+#     num_str = str(num)
+#     length = len(num_str)
+#     parts = [
+#         str(int(digit) * 10 ** (length - i - 1))
+#         for i, digit in enumerate(num_str)
+#         if digit != "0"
+#     ]
+#     return " + ".join(parts)
