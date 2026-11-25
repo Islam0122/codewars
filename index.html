@@ -219,12 +219,7 @@
     languages: [
       { id:'python', name:'Python', short:'Py', color:'#9b7bff', bg:'#9b7bff1c', progress:[14,0,0,0,0,0,0,0] },
       { id:'javascript', name:'JavaScript', short:'JS', color:'#f2cf65', bg:'#f2cf651c', progress:[12,0,0,0,0,0,0,0] },
-      { id:'typescript', name:'TypeScript', short:'TS', color:'#69aaf5', bg:'#69aaf51c', progress:[0,0,0,0,0,0,0,0] },
       { id:'sql', name:'SQL', short:'DB', color:'#48d6a0', bg:'#48d6a01c', progress:[0,0,0,0,0,0,0,0] },
-      { id:'shell', name:'Shell', short:'$ _', color:'#a6b3c8', bg:'#a6b3c81c', progress:[0,0,0,0,0,0,0,0] },
-      { id:'java', name:'Java', short:'Jv', color:'#f5a36b', bg:'#f5a36b1c', progress:[0,0,0,0,0,0,0,0] },
-      { id:'cpp', name:'C++', short:'C+', color:'#72c9d9', bg:'#72c9d91c', progress:[0,0,0,0,0,0,0,0] },
-      { id:'go', name:'Go', short:'Go', color:'#61c7c2', bg:'#61c7c21c', progress:[0,0,0,0,0,0,0,0] }
     ],
     kyus: ['8 kyu','7 kyu','6 kyu','5 kyu','4 kyu','3 kyu','2 kyu','1 kyu'],
     storageKey: 'islam-codewars-dashboard-v1'
@@ -237,9 +232,8 @@
   const API_BASE = 'https://www.codewars.com/api/v1';
   const API_CACHE_KEY = 'islam-codewars-api-cache-v1';
   const LANGUAGE_ALIASES = {
-    python: 'python', javascript: 'javascript', typescript: 'typescript',
-    sql: 'sql', shell: 'shell', bash: 'shell', sh: 'shell',
-    java: 'java', cpp: 'cpp', 'c++': 'cpp', go: 'go'
+    python: 'python', javascript: 'javascript',
+    sql: 'sql',
   };
   let apiProfile = null;
 
