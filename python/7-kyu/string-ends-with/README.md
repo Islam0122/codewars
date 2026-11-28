@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/python target="_blank">String ends with?</a></h2><h3>7 kyu</h3><p>Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).</p><p>Examples:</p><pre><code>Inputs: "abc", "bc"Output: trueInputs: "abc", "d"Output: false</code></pre>
